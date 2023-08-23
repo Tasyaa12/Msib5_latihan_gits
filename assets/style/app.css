@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+
+body {
+  background: linear-gradient(#ffe4c4 0%, #dd4c4f 40%, #ffe4c4 100%);
+
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-all {
+  background: linear-gradient(#dd4c4f 60%, #ffe4c4 100%);
+  cursor: pointer;
+}
+
+.bg-light {
+  background: #00000000 !important;
+  transition: all 0.5s;
+}
+.bg-light.scrolled {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+
+.buttonToggle {
+  display: none;
+}
+.initial {
+  font-family: "Vampiro One", cursive;
+  font-size: 30px;
+  margin: -10px;
+}
+.all-body-cover {
+  margin-top: 200px;
+}
+
+.nama {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.img-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.waves {
+  margin-top: -100px;
+  margin-bottom: 70px;
+}
+.firstContainer {
+  background: linear-gradient(
+    #ffffff 0%,
+    #ffffff 50%,
+    #ffffffde 70%,
+    #ffffffb6 75%,
+    #ffffff7e 80%,
+    #ffffff49 85%,
+    #ffffff1f 90%,
+    #ffffff00 100%
+  );
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-bottom: 400px;
+}
+.nameHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subNameHeading {
+  display: none;
+}
+.content .row {
+  padding-bottom: 40px;
+}
